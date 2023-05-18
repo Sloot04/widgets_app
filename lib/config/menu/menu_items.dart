@@ -16,14 +16,14 @@ class MenuItem {
 
 const List<MenuItem> appMenuItems = [
   MenuItem(
-    subTitle: "Botones",
-    title: "Varios botones en Flutter",
+    title: "Botones",
+    subTitle: "Varios botones en Flutter",
     link: "/buttons",
     icon: Icons.smart_button_outlined,
   ),
-   MenuItem(
-    subTitle: "Tarjetas",
-    title: "Un contenedor estilizado",
+  MenuItem(
+    title: "Tarjetas",
+    subTitle: "Un contenedor estilizado",
     link: "/card",
     icon: Icons.credit_card,
   ),
