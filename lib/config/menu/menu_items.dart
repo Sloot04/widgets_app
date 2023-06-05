@@ -39,22 +39,28 @@ const List<MenuItem> appMenuItems = [
     link: "/snackbars",
     icon: Icons.info_outline,
   ),
-   MenuItem(
+  MenuItem(
     title: "Animated container",
     subTitle: "Stateful widget animado",
     link: "/animated",
     icon: Icons.check_box_outlined,
   ),
-   MenuItem(
+  MenuItem(
     title: "UI Controls + Tiles",
     subTitle: "Una serie de controles de Flutter",
     link: "/ui-controls",
     icon: Icons.car_rental_outlined,
   ),
-    MenuItem(
+  MenuItem(
     title: "Intoducción a la aplicación",
     subTitle: "Pequeño tutorial introductorio",
     link: "/tutorial",
     icon: Icons.accessibility_rounded,
+  ),
+  MenuItem(
+    title: "nfiniteScroll y Pull",
+    subTitle: "Listas infinitas y pull to refresh",
+    link: "/infinite",
+    icon: Icons.list_alt_rounded,
   ),
 ];
