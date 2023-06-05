@@ -29,20 +29,25 @@ final appRouter = GoRouter(
       name: SnakbarScreen.name,
       builder: (context, state) => const SnakbarScreen(),
     ),
-     GoRoute(
+    GoRoute(
       path: '/animated',
       name: AnimatedScreen.name,
       builder: (context, state) => const AnimatedScreen(),
     ),
-     GoRoute(
+    GoRoute(
       path: '/ui-controls',
       name: UiControlsScreen.name,
       builder: (context, state) => const UiControlsScreen(),
     ),
-      GoRoute(
+    GoRoute(
       path: '/tutorial',
       name: AppTutorialScreen.name,
       builder: (context, state) => const AppTutorialScreen(),
+    ),
+    GoRoute(
+      path: '/infinite',
+      name: InfiniteScrollScreen.name,
+      builder: (context, state) => const InfiniteScrollScreen(),
     ),
   ],
 );
